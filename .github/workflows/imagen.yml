@@ -8,7 +8,7 @@ permissions:
   packages: write
 env:
   IMAGEN: ghcr.io/cdanielp/pms-rodaje-h3
-  ETIQUETA: 0.44.2-1
+  ETIQUETA: 0.44.2-2
 jobs:
   construir:
     runs-on: ubuntu-latest
@@ -24,7 +24,7 @@ jobs:
         run: docker build --build-arg PMS_ETIQUETA=$ETIQUETA -t $IMAGEN:$ETIQUETA -t $IMAGEN:latest .
       - name: Revisar que no haya modelos ni secretos
         run: |
-          docker run --rm --entrypoint /bin/sh $IMAGEN:$ETIQUETA -c 'test -L /opt/pms/ComfyUI/models && ! find /opt/pms /root -size +500M | grep . && ! env | grep -iE "token|key|secret" && cat /opt/pms/IMAGEN_PMS.json'
+          docker run --rm --entrypoint /bin/sh $IMAGEN:$ETIQUETA -c 'test -L /opt/pms/ComfyUI/models && ! find /opt/pms /root -size +500M | grep . && ! env | grep -iE "token|key|secret" && test "$(stat -c %a /root)" = 700 && cat /opt/pms/IMAGEN_PMS.json'
           docker image ls $IMAGEN
       - name: Publicar en ghcr.io
         run: |

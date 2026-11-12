@@ -14,4 +14,7 @@ RUN mkdir -p /opt/pms/build/workflows \
  && ln -s /workspace/pms_models /opt/pms/ComfyUI/models \
  && rm -rf /tmp/pms_build /root/.cache /opt/pms/build \
  && find /opt/pms/ComfyUI -name __pycache__ -prune -exec rm -rf {} + \
+ && echo "permisos antes: $(stat -c '%a %U' /root)" \
+ && chmod 700 /root && mkdir -p /root/.ssh && chmod 700 /root/.ssh \
+ && echo "permisos despues: $(stat -c '%a %U' /root /root/.ssh | tr '\n' ' ')" \
  && cat /opt/pms/IMAGEN_PMS.json
