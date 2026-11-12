@@ -1,0 +1,202 @@
+{
+    "models":  [
+                   {
+                       "folder":  "diffusion_models",
+                       "file":  "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+                       "bytes":  20970379616,
+                       "url":  "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "text_encoders",
+                       "file":  "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+                       "bytes":  15687142551,
+                       "url":  "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "vae",
+                       "file":  "minimax_h3_video_vae_fp16.safetensors",
+                       "bytes":  5207808496,
+                       "url":  "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_video_vae_fp16.safetensors",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "vae",
+                       "file":  "minimax_h3_audio_vae_fp32.safetensors",
+                       "bytes":  605254808,
+                       "url":  "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "checkpoints",
+                       "file":  "sam3.1_multiplex_fp16.safetensors",
+                       "bytes":  1745546848,
+                       "url":  "https://huggingface.co/Comfy-Org/sam3.1/resolve/main/checkpoints/sam3.1_multiplex_fp16.safetensors",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "loras",
+                       "file":  "minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+                       "bytes":  1956193000,
+                       "url":  "https://huggingface.co/lightx2v/Minimax-h3-Turbo/resolve/main/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "loras",
+                       "file":  "h3_character_swap_v1.5.safetensors",
+                       "bytes":  155110792,
+                       "url":  "https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA/resolve/main/h3_character_swap_v1.5.safetensors",
+                       "sha256":  "8f2c3c3eba161df8d0c6099598b4730f641f5ce01e04cd16d2427cff8a35218f"
+                   },
+                   {
+                       "folder":  "diffusion_models",
+                       "file":  "minimax_h3_ref2va_hyperflow_flash_14b-Q4_K_M.gguf",
+                       "bytes":  9220352512,
+                       "url":  "https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash/resolve/main/ref2va_gguf/minimax_h3_ref2va_hyperflow_flash_14b-Q4_K_M.gguf",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "loras",
+                       "file":  "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+                       "bytes":  1956193000,
+                       "url":  "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/loras/minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "loras",
+                       "file":  "fasth3_vsa_gate.safetensors",
+                       "bytes":  3853522616,
+                       "url":  "https://huggingface.co/barelymining/ComfyUI-MiniMax-H3-FastVideo/resolve/main/fasth3_vsa_gate.safetensors",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "loras/H3",
+                       "file":  "minimax_h3_turbo_v4_step600_pruned_comfyui.safetensors",
+                       "bytes":  620285592,
+                       "url":  "https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI/resolve/main/minimax_h3_turbo_v4_step600_pruned_comfyui.safetensors",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "LLM/Qwen/Qwen3-VL-8B-Instruct-FP8",
+                       "file":  "model-00001-of-00002.safetensors",
+                       "bytes":  5363407552,
+                       "url":  "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8/resolve/main/model-00001-of-00002.safetensors",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "LLM/Qwen/Qwen3-VL-8B-Instruct-FP8",
+                       "file":  "model-00002-of-00002.safetensors",
+                       "bytes":  5226891960,
+                       "url":  "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8/resolve/main/model-00002-of-00002.safetensors",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "LLM/Qwen/Qwen3-VL-8B-Instruct-FP8",
+                       "file":  "model.safetensors.index.json",
+                       "bytes":  94475,
+                       "url":  "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8/resolve/main/model.safetensors.index.json",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "LLM/Qwen/Qwen3-VL-8B-Instruct-FP8",
+                       "file":  "config.json",
+                       "bytes":  12005,
+                       "url":  "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8/resolve/main/config.json",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "LLM/Qwen/Qwen3-VL-8B-Instruct-FP8",
+                       "file":  "generation_config.json",
+                       "bytes":  241,
+                       "url":  "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8/resolve/main/generation_config.json",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "LLM/Qwen/Qwen3-VL-8B-Instruct-FP8",
+                       "file":  "chat_template.json",
+                       "bytes":  5497,
+                       "url":  "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8/resolve/main/chat_template.json",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "LLM/Qwen/Qwen3-VL-8B-Instruct-FP8",
+                       "file":  "preprocessor_config.json",
+                       "bytes":  336,
+                       "url":  "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8/resolve/main/preprocessor_config.json",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "LLM/Qwen/Qwen3-VL-8B-Instruct-FP8",
+                       "file":  "video_preprocessor_config.json",
+                       "bytes":  331,
+                       "url":  "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8/resolve/main/video_preprocessor_config.json",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "LLM/Qwen/Qwen3-VL-8B-Instruct-FP8",
+                       "file":  "tokenizer.json",
+                       "bytes":  10179867,
+                       "url":  "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8/resolve/main/tokenizer.json",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "LLM/Qwen/Qwen3-VL-8B-Instruct-FP8",
+                       "file":  "tokenizer_config.json",
+                       "bytes":  10868,
+                       "url":  "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8/resolve/main/tokenizer_config.json",
+                       "sha256":  ""
+                   },
+                   {
+                       "folder":  "LLM/Qwen/Qwen3-VL-8B-Instruct-FP8",
+                       "file":  "vocab.json",
+                       "bytes":  4957462,
+                       "url":  "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8/resolve/main/vocab.json",
+                       "sha256":  ""
+                   }
+               ],
+    "nodes":  [
+                  {
+                      "folder":  "h3-relay",
+                      "repo":  "https://github.com/akatz-ai/h3-relay",
+                      "commit":  "e2a7665b6eb8ea37a88c0de2c9c6b69a8f7c9220",
+                      "requirements":  false
+                  },
+                  {
+                      "folder":  "ComfyUI-GGUF",
+                      "repo":  "https://github.com/city96/ComfyUI-GGUF",
+                      "commit":  "6ea2651e7df66d7585f6ffee804b20e92fb38b8a",
+                      "requirements":  true
+                  },
+                  {
+                      "folder":  "ComfyUI-HyperFlow-Flash",
+                      "repo":  "https://github.com/Video-Rebirth/ComfyUI-HyperFlow-Flash",
+                      "commit":  "c807a89653569531b5c61ef691060acf467c552c",
+                      "requirements":  true
+                  },
+                  {
+                      "folder":  "ComfyUI-Ref2VA-VSA",
+                      "repo":  "https://github.com/Kablex/ComfyUI-Ref2VA-VSA",
+                      "commit":  "323a0a5f7c636cc70f95464145732f81f04a72e9",
+                      "requirements":  false
+                  },
+                  {
+                      "folder":  "ComfyUI-Easy-Use",
+                      "repo":  "https://github.com/yolain/ComfyUI-Easy-Use",
+                      "commit":  "b0b47ca1372117fce575d9e744655344ebff6bef",
+                      "requirements":  true
+                  },
+                  {
+                      "folder":  "ComfyUI-QwenVL",
+                      "repo":  "https://github.com/1038lab/ComfyUI-QwenVL",
+                      "commit":  "1b67b443918801f571714bab636edc1845b7002a",
+                      "requirements":  true
+                  },
+                  {
+                      "folder":  "ComfyUI-SolAttn_triton",
+                      "repo":  "https://github.com/kijai/ComfyUI-SolAttn_triton",
+                      "commit":  "842c4eaa7d91dbaef3fee3ccdbf36a39521e82fc",
+                      "requirements":  false
+                  }
+              ]
+}
